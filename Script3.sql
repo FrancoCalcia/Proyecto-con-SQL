@@ -20,7 +20,7 @@ BEGIN
 	WHERE cod_viaje = @codigo_viaje
 	IF @@ROWCOUNT = 0
 	BEGIN
-		PRINT 'No existe un registro de viaje con ese código'
+		PRINT 'No existe un registro de viaje con ese cÃ³digo'
 	END
 		
 END;

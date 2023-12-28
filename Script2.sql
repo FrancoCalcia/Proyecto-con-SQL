@@ -25,7 +25,7 @@ SELECT
 	t.tipo_remolque as 'Tipo de remolque',
 	ma.nombre 'Marca del vehiculo',
 	mo.nombre as 'Modelo del vehiculo',
-	ve.anio as 'Año del vehiculo'
+	ve.anio as 'AÃ±o del vehiculo'
 	
 
 FROM viajes v
@@ -41,7 +41,7 @@ JOIN modelo mo ON ve.cod_modelo = mo.cod_modelo
 JOIN marca ma ON mo.id_marca = ma.id_marca
 
 
-WHERE p.nombre = 'Córdoba'
+WHERE p.nombre = 'CÃ³rdoba'
 AND MONTH(v.fecha_salida)<= 6
 AND YEAR(v.fecha_salida) = 2023
 

@@ -8,7 +8,7 @@ CREATE PROCEDURE ObtenerPatenteCamionAsignado
     @apellido_chofer VARCHAR(50) OUTPUT
 AS
 BEGIN
--- variables para guardar los resultados de las búsquedas
+-- variables para guardar los resultados de las bÃºsquedas
     DECLARE @nombre VARCHAR(50);
     DECLARE @apellido VARCHAR(50);
     DECLARE @patente VARCHAR(20);
@@ -40,7 +40,7 @@ BEGIN
         SET @nombre_chofer = ISNULL(@nombre, 'No existe el chofer');
         SET @apellido_chofer = ISNULL(@apellido, 'No existe el chofer');
         -- esto responde a la consigna 5.b)
-		SET @patente_chofer = ISNULL(@patente, 'No tiene camión asignado');
+		SET @patente_chofer = ISNULL(@patente, 'No tiene camiÃ³n asignado');
     END
     ELSE
     BEGIN	
@@ -51,6 +51,6 @@ BEGIN
 		SET @nombre_chofer = 'No existe el chofer';
         SET @apellido_chofer = 'No existe el chofer';
         -- esto responde a la consigna 5.b)
-		SET @patente_chofer = 'No tiene camión asignado';
+		SET @patente_chofer = 'No tiene camiÃ³n asignado';
     END
 END;

@@ -1,4 +1,4 @@
--- variables para guardar los resultados de las búsquedas
+-- variables para guardar los resultados de las bÃºsquedas
     DECLARE @patente_chofer VARCHAR(15);
     DECLARE @nombre_chofer VARCHAR(20);
     DECLARE @apellido_chofer VARCHAR(20);
@@ -13,5 +13,5 @@ EXEC ObtenerPatenteCamionAsignado
 PRINT 'Resultado del procedimiento almacenado:';
 PRINT 'Nombre del chofer: ' + @nombre_chofer;
 PRINT 'Apellido del chofer: ' + @apellido_chofer;
-PRINT 'Patente del camión asignado: ' + @patente_chofer;
+PRINT 'Patente del camiÃ³n asignado: ' + @patente_chofer;
 

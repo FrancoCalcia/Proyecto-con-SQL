@@ -33,7 +33,7 @@ Se puede observar el archivo PDF con el diagrama realizado para comprender mejor
 
 
 ## *Instrucciones*
-- Ejecute el Script 1 para crear la base de datos "Transportes".
+- Ejecute el Script 1 para crear la base de datos `Transportes`.
 - Explore las consultas del Script 2 para obtener información sobre los viajes y choferes.
 - Ejecute el Script 3 y 5 para actualizar la fecha de llegada de un viaje específico.
 - Ejecute el Script 4 y 6 para obtener información sobre el camión asignado a un chofer en una fecha específica.

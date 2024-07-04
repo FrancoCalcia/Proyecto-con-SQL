@@ -3,7 +3,7 @@
 Este proyecto incluye los scripts SQL necesarios para crear la base de datos "Transportes" y realizar operaciones relacionadas con un sistema de gestión de transporte. La base de datos incluye tablas para conductores, vehículos, clientes, viajes y entidades relacionadas. También se han añadido índices para mejorar el rendimiento de ciertas consultas.
 
 ### *Script 1: Creación de la Base de Datos y Tablas*
-Este script crea la base de datos "Transportes" y las tablas necesarias, como "choferes", "marca", "modelo", "tipo_remolque", "camiones", "choferes_camiones", "clientes", "provincias", "ciudades" y "viajes". Además, se insertan datos de muestra en estas tablas.
+Este script crea la base de datos `Transportes` y las tablas necesarias, como `choferes`, `marca`, `modelo`, `tipo_remolque`, `camiones`, `choferes_camiones`, `clientes`, `provincias`, `ciudades` y `viajes`. Además, se insertan datos de muestra en estas tablas.
 
 ### *Script 2: Consultas SQL*
 Este script contiene consultas SQL que responden a diferentes preguntas y escenarios:
@@ -26,7 +26,7 @@ Este script ejecuta el procedimiento almacenado ActualizarViajeEnvios para actua
 Este script ejecuta el procedimiento almacenado ObtenerPatenteCamionAsignado para obtener información sobre el camión asignado a un chofer en una fecha específica. Los resultados se imprimen en la consola.
 
 ### *Índices*
-Se han agregado índices para mejorar el rendimiento de ciertas consultas. Estos incluyen índices en los campos "dni" de la tabla "choferes", "id_marca" de la tabla "modelo", "cod_modelo" de la tabla "camiones", y los campos "id_camion", "id_ciudad_origen" y "id_ciudad_destino" de la tabla "viajes".
+Se han agregado índices para mejorar el rendimiento de ciertas consultas. Estos incluyen índices en los campos `dni` de la tabla `choferes`, `id_marca` de la tabla `modelo`, `cod_modelo` de la tabla `camiones`, y los campos `id_camion`, `id_ciudad_origen` y `id_ciudad_destino` de la tabla `viajes`.
 
 ### *Diagrama Entidad-Relación*
 Se puede observar el archivo PDF con el diagrama realizado para comprender mejor el trabajo.
